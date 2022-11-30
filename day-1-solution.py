@@ -1,5 +1,5 @@
 
-##Extract data from downloaded text file
+##Extract data from downloaded text file and save them as a list
 with open('input_day1.txt') as file:
     lines = file.readlines()
     data = []
@@ -19,7 +19,7 @@ def findMeasurementIncrease(data):
 
     return ans
 
-print(f'Answer is: {findMeasurementIncrease(data)}')
+print(f'Answer to part-1 is: {findMeasurementIncrease(data)}')
 
 ##Part-2:
 ##Function for counting the increment times of the sum
@@ -35,4 +35,4 @@ def findSumIncrease(data):
 
     return ans
 
-print(f'Answer is: {findSumIncrease(data)}')
+print(f'Answer to part-2 is: {findSumIncrease(data)}')

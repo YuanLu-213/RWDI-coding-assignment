@@ -22,7 +22,7 @@ def findDestinationMultiple(data):
     
     return horizontal * depth
 
-print(f'Answer is: {findDestinationMultiple(data)}')
+print(f'Answer to part-1 is: {findDestinationMultiple(data)}')
 
 ##Part-2:
 ##Function to find the horizontal times depth with aim
@@ -40,4 +40,4 @@ def findMultipleWithAim(data):
     
     return horizontal * depth
 
-print(f'Answer is: {findMultipleWithAim(data)}')
+print(f'Answer to part-2 is: {findMultipleWithAim(data)}')
